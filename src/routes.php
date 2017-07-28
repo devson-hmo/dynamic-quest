@@ -1,9 +1,9 @@
 <?php 
-Route::group(["prefix" => "questions", "namespace" => "Devson\Questionaire\Controllers"], function() {
+Route::group(["prefix" => "questions"], function() {
     Route::get("/", "QuestionaireController@index");
 });
 
-Route::group(["prefix" => "api", "namespace" => "Devson\Questionaire\Controllers\Api"/*, "middleware" => "auth:api"*/], function() {
-    Route::post("questionaire", "QuestionaireApiController@store");
+Route::group(["prefix" => "api"/*, "middleware" => "auth:api"*/], function() {
+    Route::post("questionaire", "Api\QuestionaireApiController@store");
 });
 ?>

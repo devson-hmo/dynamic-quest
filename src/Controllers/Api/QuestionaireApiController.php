@@ -1,5 +1,5 @@
 <?php 
-namespace Devson\Questionaire\Controllers\Api;
+namespace App\Http\Controllers\Api;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -11,7 +11,7 @@ use Devson\Questionaire\Models\QuestionaireSectionQuestion;
 class QuestionaireApiController extends Controller {
 
     public function store(Request $request) {
-        $user_id = 1; 
+        $user_id = Auth::user()->id; 
 
         $validator = \Validator::make($request->all(), [
             "questionaireName" => "required"
