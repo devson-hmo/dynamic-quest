@@ -1,5 +1,5 @@
 <?php 
-namespace Devson\Questionaire\Models;
+namespace Devson\Questionnaire\Models;
 use Illuminate\Database\Eloquent\Model as Eloquent;
 
 class Questionaires extends Eloquent {
