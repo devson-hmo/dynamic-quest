@@ -1,5 +1,5 @@
 <?php 
-namespace Devson\Questionaire;
+namespace Devson\Questionnaire;
 
 use Illuminate\Support\ServiceProvider;
 
