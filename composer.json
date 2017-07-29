@@ -1,11 +1,10 @@
 {
     "name": "devson/questionnaire",
-    "type": "composer-plugin",
     "license": "Apache License 2.0",
     "authors": [
         {
             "name": "Ivan Chavez",
-            "email": "ichavez@sonoradesing.mx"
+            "email": "ichavez@devson.mx"
         }
     ],
     "minimum-stability": "dev",
